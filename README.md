@@ -1,4 +1,5 @@
 # Roll_Dados
+<p>Por: Lucas Marchiori dos Santos</p>
 
 ## Jogo de dados para mesa de RPG
 
