@@ -1,4 +1,4 @@
-# Roll_Dados
+# Roll_Dice
 <p>Por: Lucas Marchiori dos Santos</p>
 
 ## Jogo de dados para mesa de RPG
