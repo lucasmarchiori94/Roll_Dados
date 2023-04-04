@@ -1,7 +1,19 @@
 from random import randint
+import random
 import subprocess
 from PySimpleGUI import PySimpleGUI as sg
 
+#lista de conseguencias
+frases_boas = [
+    'Caramba belo golpe!', 'Você arrancou a cabeça dele', 'O inimigo treme de medo ao ver você sacar sua espada; VOCÊ GOLPEA ELE FIRME E ACERTOU EM CHEIO NA CABEÇA',
+    'fantastico você quebrou os ossos do pescoço dele',
+]
+frases_medianas = [
+    'você quase arrancou a cabeça dele', 'você fez um corte profundo mas o unimigo ainda pode te atacar', 'poderia golpear mais forte', 'isso é tudo que tem?',
+]
+frases_ruins = [
+    'você bate sua espada de raspão no braço dele', 'você acerta o inimigo e escorrega durante o golpe e sua espasa cai proximo de você',
+]
 #layout
 sg.theme('DarkAmber')
 layout = [
@@ -10,7 +22,7 @@ layout = [
     [sg.Output(size=(90, 50,))] # elemento Output
 ]
 #Janela
-janela = sg.Window('Roll Dice',layout, size=(1000, 500))
+janela = sg.Window('Roll Dice',layout, size=(300, 300))
 #Eventos
 while True:
     eventos, valores = janela.read()
@@ -20,11 +32,14 @@ while True:
         resultado = randint(1, 20)
         print(resultado)
         if resultado > 10:
-            print('Caramba parabens')
+            frase_de_acerto = random.choice(frases_boas)
+            print(frase_de_acerto)
         if resultado == 10:
-            print('Ná trave')
+            frase_media = random.choice(frases_medianas)
+            print(frase_media)
         if resultado < 10:
-            print('uma pena')
+            frase_baixa = random.choice(frases_ruins)
+            print(frase_baixa)
     
     if eventos == 'D12':
         resultado = randint(1, 12)
