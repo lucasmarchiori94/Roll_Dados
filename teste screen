@@ -1,0 +1,28 @@
+from random import randint
+import subprocess
+from PySimpleGUI import PySimpleGUI as sg
+
+#layout
+sg.theme('DarkAmber')
+layout = [
+    [sg.Button('D20', size=(3, 2))],
+    [sg.Output(size=(90, 50,))] # elemento Output
+]
+#Janela
+janela = sg.Window('Roll Dice',layout, size=(1000, 500))
+#Eventos
+while True:
+    eventos, valores = janela.read()
+    if eventos == sg.WINDOW_CLOSED:
+        break
+    if eventos == 'D20':
+        resultado = randint(1, 20)
+        print(resultado)
+        if resultado > 10:
+            print('Caramba parabens')
+        if resultado == 10:
+            print('Ná trave')
+        if resultado < 10:
+            print('uma pena')
+            
+            
