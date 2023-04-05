@@ -13,26 +13,27 @@ Nesse projeto eu criei um jogo de dado para mesa de RPG, incluindo uma tabela de
 </div>
 
 #
+
 <img align="middle" height="160" width="100%;" src="https://legendary-digital-network-assets.s3.amazonaws.com/geekandsundry/wp-content/uploads/2019/02/ezgif.com-video-to-gif-1.gif"/>
 
 #
 
 <div>
 
-## Linguagens Ultilizadas:
+## Linguagens Ultilizadas
 
     -Python
 
-## Biblioteca Ultilizada:
+## Biblioteca Ultilizada
 
     -PySimpleGUI
     -Random
 
-## Versão:
+## Versão
 
     -v1.1.0 
 
-## Nota do criador:
+## Nota do criador
 
 - Finalizei na versão 1.1.0 incluindo as consequências de acordo com o resultado do dado. Na versão anterior não havia a tebela de consequência
 - Usei a biblioteca PySimpleGUI para criar a tela do jogo e a random para gerar o numero dos dados.
@@ -40,8 +41,7 @@ Nesse projeto eu criei um jogo de dado para mesa de RPG, incluindo uma tabela de
 
 </div>
 
-# 
-
+#
 
 # Tabela dos dados
 
