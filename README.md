@@ -14,7 +14,7 @@ Nesse projeto eu criei um jogo de dado para mesa de RPG, incluindo uma tabela de
 
 #
 
-<img align="middle" height="160" width="100%;" src="https://legendary-digital-network-assets.s3.amazonaws.com/geekandsundry/wp-content/uploads/2019/02/ezgif.com-video-to-gif-1.gif"/>
+<img align="middle" height="300" width="500%;" src="/img/dados.gif"/>
 
 #
 
@@ -47,4 +47,4 @@ Nesse projeto eu criei um jogo de dado para mesa de RPG, incluindo uma tabela de
 
 <p> Nessa tabela entenderemos mais como é feito as ações de acordo com o resultado</p>
 
-<img align="middle" height="160" width="100%;" src="/Games/RollDice_Python/Roll_Dice/img/Tab dados.png">
+<img align="middle" height="500" width="150%;" src="/img/Tab dados.png">
